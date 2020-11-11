@@ -3,20 +3,30 @@ Algoritmo JavaScript (JS) que valida e-mails através de uma função (front-end
 
 ```
 CheckEmail('anaeljonas@outlook.com');
-true
+Retorna true
 ```
 
-> CheckEmail('anael@$#$@$@outlook.com');
-> false
+```
+CheckEmail('anael@$#$@$@outlook.com');
+Retorna false
+```
 
-> CheckEmail('a@o.c');
-> true
+```
+CheckEmail('a@o.c');
+Retorna true
+```
 
-> CheckEmail('@');
-> false
+```
+CheckEmail('@');
+Retorna false
+```
 
-> CheckEmail('aoc');
-> false
+```
+CheckEmail('aoc');
+Retorna false
+```
 
-> CheckEmail(anael.@.jonas.com);
-> false
+```
+CheckEmail(anael.@.jonas.com);
+Retorna false
+```
